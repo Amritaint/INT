@@ -7,7 +7,7 @@ pipeline {
         OPENSHIFT_SERVER = 'https://api.rm2.thpm.p1.openshiftapps.com:6443'
         OPENSHIFT_TOKEN = credentials('openshift-service-account-token')
         OPENSHIFT_NAMESPACE = "amritasaha11111-dev"
-        GIT_REPO_URL = 'https://github.com/arytmw/jenkins-openshift-pipeline.git'
+        GIT_REPO_URL = 'https://github.com/Amritaint/INT.git/INT'
         DEPLOYMENT_YAML_PATH = 'deployment.yml'
     }
     
